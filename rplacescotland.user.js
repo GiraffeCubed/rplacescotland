@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/GiraffeCubed/rplacescotland/blob/main/rscotlandplaceoverlay.png?raw=true";
-            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1999px;height: 999px;";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1999px;height: 1999px;";
             console.log(i);
             return i;
         })())
